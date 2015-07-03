@@ -1,0 +1,8 @@
+scm-api
+parameterized-trigger
+git-client
+git
+gradle
+jquery
+build-pipeline-plugin
+sonar
