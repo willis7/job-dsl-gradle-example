@@ -12,3 +12,8 @@ db:
   environment:
    - POSTGRES_USER=sonar
    - POSTGRES_PASSWORD=sonar
+
+jenkins:
+  build: "jenkins"
+  ports:
+   - "8080:8080"
