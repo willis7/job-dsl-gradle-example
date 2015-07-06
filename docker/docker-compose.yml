@@ -1,6 +1,5 @@
-----
 sonarqube:
-  build: "5.1"
+  build: "sonarqube5.1"
   ports:
    - "9000:9000"
    - "5432:5432"
