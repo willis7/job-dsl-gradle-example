@@ -1,6 +1,14 @@
 /**
- * This is a manifestation of the Continuous Delivery pipeline as described by Jez Humble and Dave Farley
- * See: http://www.amazon.co.uk/dp/0321601912?tag=contindelive-20
+ * MAINTAINER:      Sion Williams <sion5@hotmail.co.uk>
+ * DESCRIPTION:     This is a coded version of the Continuous Delivery pipeline as described by Jez Humble and Dave Farley
+ *                  See: http://www.amazon.co.uk/dp/0321601912?tag=contindelive-20
+ * USAGE:
+ *
+ * # Run the script (from project root)
+ *   ./gradlew rest -Dpattern=jobs/pipeline/seed.groovy -DbaseUrl=<jenkinsBaseUrl> [-Dusername=<username>] [-Dpassword=<password>]
+ *
+ * RESOURCES:
+ * DSL Reference - https://github.com/jenkinsci/job-dsl-plugin/wiki/Job-reference
  */
 
 def projectKey = 'PROJ_KEY'
